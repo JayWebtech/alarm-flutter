@@ -109,6 +109,7 @@ class AlarmNotification {
       priority: Priority.max,
       playSound: false,
       enableLights: true,
+      styleInformation: BigTextStyleInformation(''),
     );
 
     const platformChannelSpecifics = NotificationDetails(
